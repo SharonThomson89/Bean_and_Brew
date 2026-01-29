@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Brew</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class = "page_banner">
+                <img class="logo" src="images/Logo1.webp" alt="Bean & Brew Logo" id="logo">
+                <img class="name_banner" src="images/banner1 - Abril display.webp" alt="Bean and Brew Banner" id="name-banner">
+            </div>
+        </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="promos+events.html">Promos & Event</a>
+    </nav>
+
+    <main class="bookings-page">
+        <h2 class="page-label">Book a Table</h2>
+
+    
+        <section class="booking-images">
+            <img src="images/lunch meeting.webp" alt="Business Lunch meeting" class="circle-img"> 
+            <img src="images/friends.webp" alt="two friends taking a selfie" class="circle-img"> 
+            <img src="images/hot food 2.webp" alt="Picture of hot food items from the menu" class="circle-img"> 
+        </section>
+
+        <section class="bookings-form-wrap">
+            <form id="bookingForm">
+                <h3>Bookings Form</h3>
+                <label for="booking-date">Date:</label>
+                <input type="date" id="booking-date" name="booking-date" required><br>
+
+
+                <label for="booking-time">Time:</label>
+                <select id="bookiing-time" name="booking-time" required>
+                    <option value="">Select a Time</option>
+                    <option value="08:00">08:00 - 10:00</option>
+                    <option value="10:00">10:00 - 12:00</option>
+                    <option value="12:00">12:00 - 14:00</option>
+                    <option value="14:00">14:00 - 16:00</option>
+                    <option value="16:00">16:00 - 18:00</option>
+                    <option value="18:00">18:00 - 20:00</option>
+                </select><br>
+
+                <label for="booking-name">Name:</label>
+                <input type="text" id="booking-name" name="booking-name" required><br>
+                
+                <label for="booking-phone">Phone:</label>
+                <input type="tel" id="booking-phone" name="booking-phone" required><br>
+                
+                <label for="booking-email">Email:</label>
+                <input type="text" id="booking-name" name="booking-name" required><br>
+                
+                <label for="party-size">Guests:</label>
+                <select id="party-size" name="party-size" required>
+                    <option value="">Select Party Size</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select><br>
+                
+                <label for="dietary">Dietary requirments/ notes::</label><br>
+                <textarea id="dietary" name="dietary"></textarea><br><br>
+                
+                <button type="submit">Submit</button>
+                <p id="booking-message" class="form-messae"></p>
+            </form>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer-address">
+        <p><Strong>Our Address:</Strong><br>
+        45 High Street,<br>
+        Paisley,<br>
+        PA1 0AB</p>
+    </div>
+
+        <div class="footer-map">
+            <p class="footer-map-text">Find us here!</p>
+            <iframe
+                title="Map showing the Bean and Brew location"
+                class="mini_map"
+                src="https:///www.google.com/maps?q=45+Hight+Street+Paisley&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </footer>
+
+</body>
+</html>

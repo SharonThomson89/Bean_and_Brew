@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Brew</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class = "page_banner">
+                <img class="logo" src="images/Logo1.webp" alt="Bean & Brew Logo" id="logo">
+                <img class="name_banner" src="images/banner1 - Abril display.webp" alt="Bean and Brew Banner" id="name-banner">
+            </div>
+        </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="promos+events.html">Promos & Event</a>
+        <a href="bookings.html">Book a Table </a>
+    </nav>
+
+    <main>
+        <h2 class="page-label">About Us</h2>
+
+        <article class="about-image">
+            <img src="images/cafeInt.webp" alt="Bean & Brew Inrerior">
+        </article>
+
+        <article class="about-text">
+            <p>Bean & Brew is a local independant coffee shop dedicated to serving
+                freshly prepared food, quality coffee, and providing a warm and
+                welcoming environment. We believe every cup of coffee should bring 
+                a smile and a moment of relaxation to your day.<br><br>
+                
+                Beyond great coffee and food, <strong> Bean & Brew</strong> is a space for community.
+                We're proud to host <strong> Little Beans</strong>, our <strong>free</strong> weekly 
+                mum and baby group, offering a rellaxed and welcoming place for mums to connect while 
+                babies relax nearby.<br><br>
+                 We also run the <strong>Beans & Brew Book club</strong>, bringing people together
+                over good books, good coffee and good conversation. With current members aging from 19 - 74yrs
+                come along enjoy the stories off the pages as well as on them, everyone is welcome. <br><br>
+            </p>
+            <p style="text-align: center;"><strong><em>More details can be found on our events page, ask instore for full details.</em></strong></p>
+        </article>
+
+        <h2 class="page-label">Visit or Contact Us</h2>
+
+        <section class="flex-container-about">
+            <div class="about-left">
+                <h3> Visit Us</h3>
+                <p>45 High Street,<br>    
+                Paisley,<br>
+                PA1 0AB<br><br>
+                or call us on: <br>
+                0141  886 2323</p>
+            </div>
+
+            <div class="about-right">
+                <h3>Contact Us</h3>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"required> <br>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"required> <br>
+                                        
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone"required> <br>
+                                        
+                    <label for="query">Query</label>
+                    <textarea id="query" name="query"required></textarea><br>
+                    
+                    <button type="Submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+
+        <div lass="footer-book">
+        <a href="bookings.html" class="footer-button">Book a Table</a>
+        </div>
+
+        <div class="footer-map">
+            <p class="footer-map-text">Find us here!</p>
+            <iframe
+                title="Map showing the Bean and Brew location"
+                class="mini_map"
+                src="https:///www.google.com/maps?q=45+Hight+Street+Paisley&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+
+
+    </footer>
+
+</body>
+</html>
