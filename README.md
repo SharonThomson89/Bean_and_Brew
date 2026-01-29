@@ -1,2 +1,2 @@
 # Bean_and_Brew
-College Website (HNC)
+College project Website (HNC)
