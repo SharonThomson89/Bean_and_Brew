@@ -20,7 +20,7 @@ p, li, span, div, a, input, textarea, select, button {
 }
 
 .container {
-    margin: 1% auto;
+    margin: 3% auto;
     width: 100%;
     height: auto; 
 }
@@ -616,4 +616,5 @@ footer {
     }
 
 }
+
 }
