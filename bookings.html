@@ -29,21 +29,21 @@
         <h2 class="page-label">Book a Table</h2>
 
     
-        <section class="booking-images">
-            <img src="images/lunch meeting.webp" alt="Business Lunch meeting" class="circle-img"> 
+        <div class="booking-images">
+            <img src="images/lunch_meeting.webp" alt="Business Lunch meeting" class="circle-img"> 
             <img src="images/friends.webp" alt="two friends taking a selfie" class="circle-img"> 
-            <img src="images/hot food 2.webp" alt="Picture of hot food items from the menu" class="circle-img"> 
-        </section>
+            <img src="images/hot_food_2.webp" alt="Picture of hot food items from the menu" class="circle-img"> 
+        </div>
 
-        <section class="bookings-form-wrap">
+        <div class="bookings-form-wrap">
             <form id="bookingForm">
                 <h3>Bookings Form</h3>
                 <label for="booking-date">Date:</label>
                 <input type="date" id="booking-date" name="booking-date" required><br>
 
 
-                <label for="booking-time">Time:</label>
-                <select id="bookiing-time" name="booking-time" required>
+                <label for ="booking-time">Time:</label>
+                <select id="booking-time" name="booking-time" required>
                     <option value="">Select a Time</option>
                     <option value="08:00">08:00 - 10:00</option>
                     <option value="10:00">10:00 - 12:00</option>
@@ -60,7 +60,7 @@
                 <input type="tel" id="booking-phone" name="booking-phone" required><br>
                 
                 <label for="booking-email">Email:</label>
-                <input type="text" id="booking-name" name="booking-name" required><br>
+                <input type="text" id="booking-email" name="booking-email" required><br>
                 
                 <label for="party-size">Guests:</label>
                 <select id="party-size" name="party-size" required>
@@ -81,7 +81,7 @@
                 <button type="submit">Submit</button>
                 <p id="booking-message" class="form-message"></p>
             </form>
-        </section>
+        </div>
     </main>
 
     <footer>
@@ -106,7 +106,6 @@
 </body>
     
 </html>
-
 
 
 
