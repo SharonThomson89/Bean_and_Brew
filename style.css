@@ -20,7 +20,7 @@ p, li, span, div, a, input, textarea, select, button {
 }
 
 .container {
-    margin: 3% auto;
+    margin: 1% auto;
     width: 100%;
     height: auto; 
 }
@@ -156,7 +156,6 @@ main {
     justify-content: space-between;
     padding: 15px;
     width: 100%;
-    
 }
 
 .about-left {
@@ -476,7 +475,7 @@ footer {
         align-items: center;
     }
 
-       nav a{
+    nav a{
         font-size: 35px;
     }
 
@@ -586,9 +585,10 @@ footer {
     }
 
     .flex-container1, .flex-container2,
-    .flex-container3, .flex-container-about, .events {
+    .flex-container3, .events {
         flex-wrap: wrap;
         justify-content: space-evenly;
+
     }
 
     .flex-item1, .flex-item3,
@@ -602,7 +602,7 @@ footer {
 
     .about-left, .about-right {
         flex: 1 1 48%;
-        max-width: 48%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 10px;
         box-sizing: border-box;
@@ -618,11 +618,4 @@ footer {
     }
 
 }
-
 }
-
-
-
-
-
-
