@@ -476,6 +476,10 @@ footer {
         align-items: center;
     }
 
+       nav a{
+        font-size: 43px;
+    }
+
     .page_banner {
         flex-direction: column;
         align-items: center;
@@ -620,5 +624,6 @@ footer {
 }
 
 }
+
 
 
