@@ -488,8 +488,6 @@ footer {
         width: 100%;
     }
 
-
-
     .flex-container1, .flex-container2, 
      .events {
         flex-direction: column;
@@ -502,7 +500,7 @@ footer {
         text-align: center;
     }
 
-    .flex-item1, .flex-item3,
+    .flex-item3,
     .flex-item4 {
         flex: 1 1 45%;
         margin: 5px auto;
@@ -511,6 +509,9 @@ footer {
         text-align: center;
     }
 
+    .flex-item1 {
+        width: 200px;
+    }
 
     .flex-item2 {
         width: 90%;
@@ -618,3 +619,4 @@ footer {
 }
 
 }
+
