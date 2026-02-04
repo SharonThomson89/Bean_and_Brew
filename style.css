@@ -540,6 +540,10 @@ footer {
         max-width: 100%;
     }
 
+    .form button {
+        width: 85%;
+    }
+
     .promo-item {
         padding-right: 30%;
     }
@@ -619,3 +623,4 @@ footer {
 
 }
 }
+
