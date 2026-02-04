@@ -511,6 +511,7 @@ footer {
 
     .flex-item1 {
         width: 200px;
+        text-align: center;
     }
 
     .flex-item2 {
@@ -619,4 +620,5 @@ footer {
 }
 
 }
+
 
