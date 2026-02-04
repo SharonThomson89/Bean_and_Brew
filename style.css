@@ -538,9 +538,7 @@ footer {
 
     .about-left,
     .about-right {
-        width: 90%;
-        max-width: 90%;
-        margin: 0 auto;
+        max-width: 100%;
     }
 
     .promo-item {
@@ -624,6 +622,7 @@ footer {
 }
 
 }
+
 
 
 
