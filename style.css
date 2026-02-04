@@ -589,9 +589,7 @@ footer {
     .flex-container3, .flex-container-about, .events {
         flex-wrap: wrap;
         justify-content: space-evenly;
-
     }
-
 
     .flex-item1, .flex-item3,
     .flex-item4 {
@@ -622,6 +620,7 @@ footer {
 }
 
 }
+
 
 
 
