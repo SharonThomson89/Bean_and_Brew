@@ -17,16 +17,13 @@ h1, h2, h3 {
 
 p, li, span, div, a, input, textarea, select, button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
 }
 
 .container {
     margin: 1% auto;
     width: 100%;
     height: auto; 
-}
-
-p {
-    font-size: 40px;
 }
 
 header {
@@ -245,18 +242,20 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 form input, form textarea, form select, form button {
-    width: 80%;
-    padding: 8px;
+    width: 75%;
+    padding: 5px;
     margin-bottom: 10px;
     border: 4px solid #A88458;
     border-radius: 5px;
     box-sizing: border-box;
-    font-size: 35px;
+    font-size: 30px;
 }
+
+
 
 .bookings-page #bookingForm {
     width: 100%;
@@ -450,7 +449,7 @@ footer {
     padding: 12px 18px;
     display: inline-block;
     transition: background-color 0.3s ease;  
-    height: 20%; 
+    height: 40%; 
 }
 
 .footer-button:hover, 
@@ -469,6 +468,10 @@ footer {
 }
 
 @media (max-width:768px) {
+
+    p {
+        font-size: 25px;
+    }
     
     nav {
         flex-direction: column;
@@ -513,7 +516,7 @@ footer {
     }
 
     .flex-item1 {
-        width: 200px;
+        width: 175px;
         text-align: center;
     }
 
@@ -539,20 +542,17 @@ footer {
     .about-right {
         max-width: 100%;
     }
-
-    .form button {
-        width: 85%;
-    }
-
+        
     .promo-item {
-        padding-right: 30%;
+        padding-right: 25%;
+        gap: 10px;
     }
 
     .promo-item img {
-        width: 85%;
+        width: 70%;
         height: auto;
         object-fit: cover;
-        max-width: 320px;
+        max-width: 300px;
     }
 
     .menu-grid  {
@@ -580,6 +580,11 @@ footer {
     footer {
         flex-direction: column;
         text-align: center;
+    }
+
+    .footer-button, 
+    .book-button a {
+    font-size: 100%;
     }
 
 @media (max-width: 1024px) {
@@ -623,4 +628,3 @@ footer {
 
 }
 }
-
